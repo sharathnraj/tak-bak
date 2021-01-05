@@ -1,0 +1,171 @@
+body {
+  box-sizing: border-box;
+  padding-top: 144px;
+  position: relative;
+}
+
+section {
+  padding: 80px 16px;
+  box-sizing: border-box;
+}
+
+section .wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 16px;
+  }
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-grey {
+  background-color: #EDE2DC;
+}
+
+.bg-orange {
+  background: #F9A11B;
+}
+
+.bg-black {
+  background: #000000;
+  color: #ffffff;
+}
+
+.align-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+
+input {
+  width: 375px;
+  max-width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+.button {
+  font-family: 'honey_and_raspberriesregular';
+  text-transform: uppercase;
+  font-size: 26px;
+  border: 2px solid transparent;
+  border-bottom: 5px solid #DFBB0F;
+  letter-spacing: 2px;
+  background: #F9A11B;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 400ms;
+  box-shadow: 0 10px 10px rgba(188, 112, 12, 0.8);
+}
+.button:hover {
+  box-shadow: 0 5px 5px rgba(188, 112, 12, 0.4);
+}
+
+.form-success {
+  color: #AEBA31;
+  text-shadow: 0 5px 10px rgba(66, 66, 66, 0.2);
+}
+.form-failure {
+  color: #EE2225;
+  text-shadow: 0 5px 10px rgba(66, 66, 66, 0.2);
+}
+
+.split {
+  width: 100%;
+  display: flex;
+}
+
+.split > div {
+  flex-grow: 0;
+}
+.split > div:first-child {
+  margin: 0 16px 0 0;
+}
+.split > div:last-child {
+  margin: 0 0 0 16px;
+}
+
+.split-60 {
+  width: 60%;
+}
+.split-40 {
+  width: 40%;
+}
+
+.split img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .split {
+    flex-direction: column;
+  }
+
+  .split-60,
+  .split-40 {
+    width: 100%;
+  }
+
+  .split > div:first-child {
+    margin: 0 0 16px;
+  }
+  .split > div:last-child {
+    margin: 16px 0 0 0;
+  }
+}
+
+/* Header */
+header {
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 16px;
+  height: 144px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  box-shadow: 0 10px 10px rgba(66, 66, 66, 0.2);
+  z-index: 99;
+}
+
+header .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header img.logo {
+  height: 120px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 112px;
+  }
+
+  header {
+    text-align: center;
+    height: 112px;
+  }
+
+  header img.logo {
+    height: 80px;
+    margin: 0;
+  }
+}
