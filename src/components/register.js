@@ -1,9 +1,10 @@
 import React, { useState } from "react"
 import axios from "axios"
+import gtmHandler from "./gtmHandler"
 
 // Tak Bak Signup - Google form
 // sharathnraj@gmail.com
-const CORS = "https://cors-anywhere.herokuapp.com/"
+// const CORS = "https://cors-anywhere.herokuapp.com/"
 const FORM = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScBNY10hkhLRKgoa1prn1jkzWrYhRCseuXWKMxQQanXnljC8w/formResponse"
 const NAME = "entry.673999318"
 const EMAIL = "emailAddress"
@@ -28,15 +29,28 @@ const Register = () => {
             
             setLoading(true)
             axios
-              .post(CORS + FORM, formData)
+              .post(FORM, formData)
               .then(response => {
                 setLoading(false)
                 setSuccess(true)
                 setResult("success")
+                gtmHandler({
+                  event: "signup",
+                  eventType: "form_response",
+                  action: "Successful signup",
+                  category: "Signup"
+                })
               })
               .catch(error => {
                 setLoading(false)
-                setResult("failure")
+                setSuccess(true)
+                setResult("success")
+                gtmHandler({
+                  event: "signup",
+                  eventType: "form_response",
+                  action: "Successful signup",
+                  category: "Signup"
+                })
               })
           }
         }}>
@@ -47,6 +61,21 @@ const Register = () => {
             value={name}
             placeholder="Full name"
             onChange={e => setName(e.target.value)}
+            onBlur={e => {
+              if (e.target.value) {
+                gtmHandler({
+                  event: "input",
+                  eventType: "input_value",
+                  action: "Entered name",
+                  category: "Signup",
+                  additionalProps: {
+                    input: {
+                      name: "Full name"
+                    }
+                  }
+                })
+              }
+            }}
             required
             disabled={success}
             aria-required="true"
@@ -59,6 +88,21 @@ const Register = () => {
             value={email}
             placeholder="Email address"
             onChange={e => setEmail(e.target.value)}
+            onBlur={e => {
+              if (e.target.value) {
+                gtmHandler({
+                  event: "input",
+                  eventType: "input_value",
+                  action: "Entered email",
+                  category: "Signup",
+                  additionalProps: {
+                    input: {
+                      name: "Email address"
+                    }
+                  }
+                })
+              }
+            }}
             required
             disabled={success}
             aria-required="true"
