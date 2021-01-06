@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import Logo from "../images/logo.png"
-import LogoText from "../images/logo-text.webp"
+// import LogoText from "../images/logo-text.webp"
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
         style={{ textDecoration: `none` }}
       >
         <img className="logo" src={Logo} alt={siteTitle} />
-        <img className="logo" src={LogoText} alt={siteTitle} />
+        {/* <img className="logo" src={LogoText} alt={siteTitle} /> */}
       </Link>
     </div>
   </header>

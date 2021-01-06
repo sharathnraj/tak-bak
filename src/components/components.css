@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  padding-top: 144px;
+  padding-top: 132px;
   position: relative;
 }
 
@@ -136,7 +136,7 @@ header {
   box-sizing: border-box;
   background: #ffffff;
   padding: 16px;
-  height: 144px;
+  height: 132px;
   width: 100%;
   top: 0;
   position: fixed;
@@ -150,22 +150,43 @@ header .wrapper {
 }
 
 header img.logo {
-  height: 120px;
+  height: 100px;
   margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
   body {
-    padding-top: 112px;
+    padding-top: 92px;
   }
 
   header {
     text-align: center;
-    height: 112px;
+    height: 92px;
   }
 
   header img.logo {
-    height: 80px;
+    height: 60px;
     margin: 0;
+  }
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  height: calc(100vh - 132px);
+  background-color: #DCDBD7;
+  background-image: url("../images/hero.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    height: calc(100vh - 92px);
   }
 }
