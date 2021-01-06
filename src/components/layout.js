@@ -26,6 +26,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <noscript>
+        <iframe
+          title="GoogleTagManager"
+          src="https://www.googletagmanager.com/ns.html?id=GTM-WKCC5SJ"
+          height="0"
+          width="0"
+          style={{
+            display: "none",
+            visibility: "hidden"
+          }}>
+        </iframe>
+      </noscript>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>
         {children}

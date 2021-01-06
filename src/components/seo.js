@@ -70,14 +70,23 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR54MHVC9E"></script>
+      <script
+        type="text/javascript"
+        async
+        src="https://www.google-analytics.com/analytics.js">
+      </script>
+      <script
+        type="text/javascript"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-LRC649GFJQ&l=dataLayer&cx=c">
+      </script>
       <script>
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-WR54MHVC9E');
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-WKCC5SJ');
         `}
       </script>
     </Helmet>

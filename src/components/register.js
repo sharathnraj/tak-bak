@@ -69,9 +69,7 @@ const Register = () => {
                   action: "Entered name",
                   category: "Signup",
                   additionalProps: {
-                    input: {
-                      name: "Full name"
-                    }
+                    inputName: "Full name"
                   }
                 })
               }
@@ -96,9 +94,7 @@ const Register = () => {
                   action: "Entered email",
                   category: "Signup",
                   additionalProps: {
-                    input: {
-                      name: "Email address"
-                    }
+                    inputName: "Email address"
                   }
                 })
               }
