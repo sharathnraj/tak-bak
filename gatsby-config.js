@@ -20,7 +20,7 @@ module.exports = {
       options: {
         name: `tak-bak`,
         short_name: `tak-bak`,
-        start_url: `https://tak-bak.netlify.app`,
+        start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
@@ -49,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/404`],
-      },
+        precachePages: [`/*`, `/**/*`]
+      }
     }
   ],
 }
