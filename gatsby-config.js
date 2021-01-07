@@ -32,6 +32,12 @@ module.exports = {
             "purpose": "any maskable"
           },
           {
+            "src": "src/images/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
+          {
             "src": "src/images/logo-196x196.png",
             "sizes": "196x196",
             "type": "image/png",
