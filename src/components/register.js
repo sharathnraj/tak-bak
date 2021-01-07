@@ -60,6 +60,7 @@ const Register = () => {
             name="name"
             value={name}
             placeholder="Full name"
+            aria-label="Full name"
             onChange={e => setName(e.target.value)}
             onBlur={e => {
               if (e.target.value) {
@@ -85,6 +86,7 @@ const Register = () => {
             name="email"
             value={email}
             placeholder="Email address"
+            aria-label="Email address"
             onChange={e => setEmail(e.target.value)}
             onBlur={e => {
               if (e.target.value) {
