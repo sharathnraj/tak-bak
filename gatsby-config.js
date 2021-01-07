@@ -21,30 +21,19 @@ module.exports = {
         name: `tak-bak`,
         short_name: `tak-bak`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#F8A01A`,
+        theme_color: `#F8A01A`,
         display: `minimal-ui`,
+        icon: "src/images/logo-512x512.png",
         icons: [
           {
-            "src": "src/images/logo.png",
-            "sizes": "144x144",
-            "type": "image/png",
-            "purpose": "any maskable"
-          },
-          {
-            "src": "src/images/logo-192x192.png",
+            "src": "/icons/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
           },
           {
-            "src": "src/images/logo-196x196.png",
-            "sizes": "196x196",
-            "type": "image/png",
-            "purpose": "any maskable"
-          },
-          {
-            "src": "src/images/logo-512x512.png",
+            "src": "/icons/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
