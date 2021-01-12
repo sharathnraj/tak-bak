@@ -43,13 +43,13 @@ const IndexPage = () => {
         }>
         <div className="hero-content">
           <h1 className="words">
-            <span>Play</span>
-            <span>Listen</span>
-            <span>Learn</span>
-            <span>Repeat</span>
+            <span className="words-1">Play</span>
+            <span className="words-2">Listen</span>
+            <span className="words-3">Learn</span>
+            <span className="words-4">Repeat</span>
           </h1>
         </div>
-        <a className="hero-scroll" href="#main"><span></span><span></span><span></span>Scroll</a>
+        <a className="hero-scroll" href="#main"><span className="hero-scroll-1"></span><span className="hero-scroll-2"></span><span className="hero-scroll-3"></span>Scroll</a>
       </div>
       <div className="anchor" id="main" />
       <section className="bg-white">
