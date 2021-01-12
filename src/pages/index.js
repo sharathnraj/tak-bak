@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 import Layout from "../components/layout"
 import Register from "../components/register"
@@ -8,21 +8,32 @@ import Animals from "../images/animals.webp"
 import Colors from "../images/colors.webp"
 
 const IndexPage = () => {
-  // const [top, setTop] = useState(0)
-  // useEffect(() => {
-  //   if (window) {
-  //     window.addEventListener("scroll", () => {
-  //       setTop(window.document.documentElement.scrollTop)
-  //     }, {
-  //       passive: true
-  //     })
-  //   }
-  // }, [top])
+  const [headerHeight, setHeaderHeight] = useState(0)
+  const header =
+    document.getElementsByTagName("header") &&
+    document.getElementsByTagName("header")[0] &&
+    document.getElementsByTagName("header")[0].clientHeight
+
+  useEffect(() => {
+    console.log("1")
+    if (typeof window !== "undefined" && window && document.getElementsByTagName("header")) {
+      setHeaderHeight(document.getElementsByTagName("header")[0].clientHeight)
+    }
+  }, [header])
 
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="hero">
+      <div
+        className="hero"
+        style={
+          typeof window !== "undefined" &&
+          window &&
+          window.innerHeight ?
+          {
+            height: `calc(${window.innerHeight}px - ${headerHeight}px)`
+          } : {}
+        }>
         <div className="hero-content">
           <h1 className="words">
             <span>Play</span>
