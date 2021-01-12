@@ -217,11 +217,11 @@ footer a {
   opacity: 0;
   overflow: hidden;
   left: 50%;
-  animation: rotateWord 12s linear infinite 0s;
+  animation: rotateWord 13s linear infinite 0s;
 }
 
 .hero h1.words .words-1 {
-  animation-delay: -50ms;
+  animation-delay: -12s;
   color: #B4191E;
 }
 
