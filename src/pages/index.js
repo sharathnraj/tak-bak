@@ -10,13 +10,20 @@ import Colors from "../images/colors.webp"
 const IndexPage = () => {
   const [headerHeight, setHeaderHeight] = useState(0)
   const header =
+    typeof window !== "undefined" &&
+    window &&
+    window.document &&
     document.getElementsByTagName("header") &&
     document.getElementsByTagName("header")[0] &&
     document.getElementsByTagName("header")[0].clientHeight
 
   useEffect(() => {
-    console.log("1")
-    if (typeof window !== "undefined" && window && document.getElementsByTagName("header")) {
+    if (
+      typeof window !== "undefined" &&
+      window &&
+      window.document &&
+      document.getElementsByTagName("header")
+    ) {
       setHeaderHeight(document.getElementsByTagName("header")[0].clientHeight)
     }
   }, [header])
