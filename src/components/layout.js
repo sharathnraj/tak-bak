@@ -10,8 +10,14 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 import "./components.css"
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -42,13 +48,7 @@ const Layout = ({ children }) => {
       <main>
         {children}
       </main>
-      <footer>
-        <section className="bg-orange align-center">
-          <div className="wrapper">
-            &copy; {new Date().getFullYear()}, Tak Bak
-          </div>
-        </section>
-      </footer>
+      <Footer />
     </>
   )
 }
