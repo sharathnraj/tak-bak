@@ -23,8 +23,17 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className="hero">
-        
+        <div className="hero-content">
+          <h1 className="words">
+            <span>Play</span>
+            <span>Listen</span>
+            <span>Learn</span>
+            <span>Repeat</span>
+          </h1>
+        </div>
+        <a className="hero-scroll" href="#main"><span></span><span></span><span></span>Scroll</a>
       </div>
+      <div className="anchor" id="main" />
       <section className="bg-white">
         <div className="wrapper">
           <div className="split">
