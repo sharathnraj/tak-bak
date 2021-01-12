@@ -175,6 +175,10 @@ header img.logo {
   }
 }
 
+footer a {
+  color: #101010;
+}
+
 /* Hero */
 .hero {
   width: 100%;
@@ -193,6 +197,7 @@ header img.logo {
 .hero .hero-content {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .hero h1.words {
