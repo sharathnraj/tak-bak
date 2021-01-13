@@ -221,22 +221,22 @@ footer a {
 }
 
 .hero h1.words .words-1 {
-  animation-delay: -15s;
+  animation-delay: -12s;
   color: #B4191E;
 }
 
 .hero h1.words .words-2 {
-  animation-delay: -12s;
+  animation-delay: -9s;
   color: #AEB932;
 }
 
 .hero h1.words .words-3 {
-  animation-delay: -9s;
+  animation-delay: -6s;
   color: #EF5820;
 }
 
 .hero h1.words .words-4 {
-  animation-delay: -6s;
+  animation-delay: -3s;
   color: #605923;
 }
 
