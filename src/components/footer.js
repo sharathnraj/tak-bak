@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => (
   <footer>
-    <section className="bg-orange align-center">
+    <section className="bg-orange align-center small-padding">
       <div className="wrapper">
         &copy; {new Date().getFullYear()}, Tak Bak
         <br /><br />
