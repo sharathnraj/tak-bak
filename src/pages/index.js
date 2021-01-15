@@ -58,8 +58,8 @@ const IndexPage = () => {
         <div className="wrapper">
           <div className="split">
             <div className="split-60">
-              <h2>Play. Listen. Learn. Repeat</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h2>Vision statement</h2>
+              <p>It's all fun and games. When we play, we learn with the least amount of effort. And because it's fun we want to play again and again which leads us to learn better and better.<br /><br />That's our approach to introducing kids to Hindi or any other Indian language for that matter. It has to be FUN first and learning will follow. </p>
             </div>
             <div className="split-40">
               <img
@@ -82,14 +82,7 @@ const IndexPage = () => {
             </div>
             <div className="split-60">
                 <h2>Teach Better Hindi</h2>
-                <p>Improve your student outcomes with our games.</p>
-                <ul>
-                  <li>Point No. 1</li>
-                  <li>Point No. 2</li>
-                  <li>Point No. 3</li>
-                  <li>Point No. 4</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Here at TakBak we take tools and tricks that we know kids already love and use them to teach a language.<br /><br />We get together for a weekly Hindi class. But it isn't yet another boring zoom meeting. Kids love playing games. We learn our words through playing games like Bingo, Pictionary and Scavenger hunt. We do a lot of Kahoot quizzes and kids love to compete and be on the leaderboards.<br /><br />Kids love to sing and dance. So we dance to hindi songs while we try and listen to some words we recently learnt. We draw, read and listen to stories all while learning the language.<br /><br />And we do it with friends.<br />That's what makes it double the fun!!</p>
             </div>
           </div>
         </div>
