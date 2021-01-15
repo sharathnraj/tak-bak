@@ -207,12 +207,19 @@ footer a svg {
   overflow: hidden;
 }
 
-.hero:before {
+.hero .hero-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero .hero-logo:before {
   content: "";
   background-image: url("../images/hero-logo.webp");
   position: absolute;
   left: 0;
-  width: 25%;
+  width: 20%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -220,12 +227,12 @@ footer a svg {
   animation: rocking 3s linear infinite;
 }
 
-.hero:after {
+.hero .hero-logo:after {
   content: "";
   background-image: url("../images/hero-logo-flip.webp");
   position: absolute;
   right: 0;
-  width: 25%;
+  width: 20%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -233,18 +240,40 @@ footer a svg {
   animation: rocking-flip 3s linear infinite;
 }
 
+.hero p {
+  width: 768px;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+  padding: 32px 0;
+}
+
 @media only screen and (max-width: 768px) {
   .hero {
-    background-image: url("../images/hero.webp");
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: space-between;
   }
 
-  .hero::before,
-  .hero:after {
+  .hero p {
+    max-width: 100%;
+    padding: 0 16px 16px;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+
+  .hero .hero-logo {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    z-index: 1;
+  }
+
+  .hero .hero-logo:after {
     display: none;
+  }
+  .hero .hero-logo:before {
+    width: 100%;
   }
 }
 
@@ -300,6 +329,7 @@ footer a svg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 
 .hero h1.words {
@@ -381,6 +411,10 @@ footer a svg {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero h1.words {
+    padding: 32px 0;
+    font-size: 80px;
+  }
   .anchor {
     margin: -72px 0 72px;
   }

@@ -48,7 +48,9 @@ const IndexPage = () => {
             <span className="words-3">Learn</span>
             <span className="words-4">Repeat</span>
           </h1>
+          <p>Get kids excited to learn and converse in Hindi with our play based iOS app and tons of supporting teaching and gaming materials.</p>
         </div>
+        <div className="hero-logo" />
         <a className="hero-scroll" href="#main"><span className="hero-scroll-1"></span><span className="hero-scroll-2"></span><span className="hero-scroll-3"></span>Scroll</a>
       </div>
       <div className="anchor" id="main" />
