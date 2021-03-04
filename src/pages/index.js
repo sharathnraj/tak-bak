@@ -87,6 +87,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+      <div className="anchor" id="signup" />
       <section className="bg-grey align-center">
         <div className="wrapper">
           <h2 className="large">Join the Tak Bak wagon.</h2>
