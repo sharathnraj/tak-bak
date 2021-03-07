@@ -53,6 +53,10 @@ h2 {
   letter-spacing: 1px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 p {
   font-size: 24px;
   letter-spacing: 0.4px;
@@ -62,9 +66,17 @@ p {
   margin-right: auto;
 }
 
+p.small {
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
 @media only screen and (max-width: 768px) {
   p {
     font-size: 20px;
+  }
+  p.small {
+    font-size: 16px;
   }
 }
 
@@ -145,6 +157,42 @@ input {
   .split > div:last-child {
     margin: 16px 0 0 0;
   }
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  flex-grow: 0;
+  width: 320px;
+  max-width: 100%;
+  border: 2px solid transparent;
+  border-bottom: 5px solid #DFBB0F;
+  border-radius: 5px;
+  background: #F9A11B;
+  position: relative;
+  padding: 16px;
+  margin-bottom: 64px;
+  transition-duration: 400ms;
+}
+
+.card h3 {
+  text-align: center;
+  color: #B5191E;
+  text-shadow: 1px 1px 0px #AEB932;
+  transition-duration: 400ms;
+}
+
+.card:hover {
+  box-shadow: 0 10px 10px rgba(188, 112, 12, 0.8);
+  transform: translateY(2px);
+}
+.card:hover h3 {
+  text-shadow: 2px 2px 4px #AEB932;
 }
 
 /* Header */
