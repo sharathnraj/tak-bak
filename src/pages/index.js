@@ -58,28 +58,100 @@ const IndexPage = () => {
         <div className="wrapper">
           <div className="cards">
             <div className="card">
-              <h3>Play. Listen. Learn. Repeat</h3>
-              <p className="small">Say no to boring flashcards approach to learning<br/><br/>Kids learn through repetition using games and activities, and not rote memorization.</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>Play. Listen. Learn. Repeat</h3>
+                  <p className="small">Say no to boring flashcards approach to learning<br/><br/>Kids learn through repetition using games and activities, and not rote memorization.</p>
+                </div>
+              </div>
             </div>
             <div className="card">
-              <h3>Games on the go</h3>
-              <p className="small">Try our TakBak app loaded with games designed for kids (ages 3 - 8) on your iOS device to take your learning and practice wherever you go!</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>Games on the go</h3>
+                  <p className="small">Try our TakBak app loaded with games designed for kids (ages 3 - 8) on your iOS device to take your learning and practice wherever you go!</p>
+                </div>
+              </div>
             </div>
             <div className="card">
-              <h3>Fun and interactive live classes</h3>
-              <p className="small">Play and compete with friends in a live collaborative setting that makes learning a breeze.<br/><br/>Our students don’t want the classes to end.</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>Fun and interactive live classes</h3>
+                  <p className="small">Play and compete with friends in a live collaborative setting that makes learning a breeze.<br/><br/>Our students don’t want the classes to end.</p>
+                </div>
+              </div>
             </div>
             <div className="card">
-              <h3>It’s not “All or Nothing”</h3>
-              <p className="small">We encourage "Hinglish" in our classes.<br/><br/>Students use how much ever Hindi they and don't stress about being prefect.</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>It’s not “All or Nothing”</h3>
+                  <p className="small">We encourage "Hinglish" in our classes.<br/><br/>Students use how much ever Hindi they and don't stress about being prefect.</p>
+                </div>
+              </div>
             </div>
             <div className="card">
-              <h3>Bollywood dance lessons</h3>
-              <p className="small">Singing and dancing to songs help with learning new vocab, grammar and pronunciation<br/><br/>And who isn’t fond of a thumka or two?</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>Bollywood dance lessons</h3>
+                  <p className="small">Singing and dancing to songs help with learning new vocab, grammar and pronunciation<br/><br/>And who isn’t fond of a thumka or two?</p>
+                </div>
+              </div>
             </div>
             <div className="card">
-              <h3>Access to tons of games and learning resources</h3>
-              <p className="small">Subscribe to our mailing list to get your hands on tons of teaching material that get kids excited about learning.</p>
+              <div className="wrapper">
+                <div className="top-left" />
+                <div className="top-right" />
+                <div className="bottom-left" />
+                <div className="bottom-right" />
+                <div className="wrapper">
+                  <div className="top-left" />
+                  <div className="top-right" />
+                  <div className="bottom-left" />
+                  <div className="bottom-right" />
+                  <h3>Access to tons of games and learning resources</h3>
+                  <p className="small">Subscribe to our mailing list to get your hands on tons of teaching material that get kids excited about learning.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

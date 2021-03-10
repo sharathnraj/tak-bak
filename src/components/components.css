@@ -171,19 +171,71 @@ input {
   width: 320px;
   max-width: 100%;
   border: 2px solid transparent;
-  border-bottom: 5px solid #DFBB0F;
   border-radius: 5px;
-  background: #eeebac;
+  background: #FEFBE8;
   position: relative;
-  padding: 16px;
+  padding: 8px;
   margin-bottom: 64px;
   transition-duration: 400ms;
 }
+.card .wrapper {
+  border: 2px solid #AEB932;
+  position: relative;
+  padding: 6px;
+  height: 100%;
+}
+.card .wrapper .wrapper {
+  padding: 16px;
+}
 
+.card .top-left {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #AEB932;
+  border-right: 2px solid #AEB932;
+  border-bottom-right-radius: 5px;
+  top: -2px;
+  left: -2px;
+  background: #FEFBE8;
+}
+.card .bottom-left {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #AEB932;
+  border-right: 2px solid #AEB932;
+  border-top-right-radius: 5px;
+  bottom: -2px;
+  left: -2px;
+  background: #FEFBE8;
+}
+.card .top-right {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #AEB932;
+  border-left: 2px solid #AEB932;
+  border-bottom-left-radius: 5px;
+  top: -2px;
+  right: -2px;
+  background: #FEFBE8;
+}
+.card .bottom-right {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #AEB932;
+  border-left: 2px solid #AEB932;
+  border-top-left-radius: 5px;
+  bottom: -2px;
+  right: -2px;
+  background: #FEFBE8;
+}
 .card h3 {
   text-align: center;
-  color: #B5191E;
-  text-shadow: 1px 1px 0px #AEB932;
+  /* color: #B5191E;
+  text-shadow: 1px 1px 0px #AEB932; */
   transition-duration: 400ms;
 }
 
@@ -192,7 +244,7 @@ input {
   transform: translateY(2px);
 }
 .card:hover h3 {
-  text-shadow: 2px 2px 4px #AEB932;
+  /* text-shadow: 2px 2px 4px #AEB932; */
 }
 
 /* Header */
