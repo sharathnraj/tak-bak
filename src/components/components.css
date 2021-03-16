@@ -106,8 +106,33 @@ input {
   box-shadow: 0 5px 5px rgba(188, 112, 12, 0.4);
 }
 
+form {
+  margin: 0;
+  height: 275px;
+  position: relative;
+}
+form input {
+  opacity: 1;
+  transition-duration: 0.2s;
+}
+form.formThankYou input {
+  opacity: 0;
+}
+.form-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  font-size: 20px;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+form.formThankYou .form-message {
+  opacity: 1;
+}
 .form-success {
-  color: #AEBA31;
+  color: #605923;
   text-shadow: 0 5px 10px rgba(66, 66, 66, 0.2);
 }
 .form-failure {
@@ -242,9 +267,6 @@ input {
 .card:hover {
   box-shadow: 0 10px 10px rgba(188, 112, 12, 0.8);
   transform: translateY(2px);
-}
-.card:hover h3 {
-  /* text-shadow: 2px 2px 4px #AEB932; */
 }
 
 /* Header */

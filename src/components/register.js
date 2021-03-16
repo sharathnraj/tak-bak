@@ -20,6 +20,7 @@ const Register = () => {
     <>
       <form
         method="POST"
+        className={result && "formThankYou"}
         onSubmit={e => {
           e.preventDefault()
           if (!loading) {
@@ -114,13 +115,17 @@ const Register = () => {
         <br /><br />
         {
           result && (
-            result === "failure" ?
-            <div className="form-failure">
-              Something went wrong. Please try again later.
-            </div>
-            :
-            <div className="form-success">
-              Your message was sent successfully. Thanks.
+            <div className="form-message">
+              {
+                result === "failure" ?
+                <div className="form-failure">
+                  Something went wrong. Please try again later.
+                </div>
+                :
+                <div className="form-success">
+                  Thank you for subscribing.<br /><br />Here are some <a href="https://create.kahoot.it/collection/7d08a333-4898-4f15-8d56-6fdab2c82c4f">Hindi 101 Kahoot</a> quizzes to try with your kids.<br /><br />Let us know how you like them. Happy Kahooting!
+                </div>
+              }
             </div>
           )
         }
