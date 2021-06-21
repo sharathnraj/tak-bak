@@ -6,6 +6,22 @@ const Footer = () => (
       <div className="wrapper">
         &copy; {new Date().getFullYear()}, Tak Bak
         <br /><br />
+        <div>
+          <a
+            href="https://www.parjanya.org/contactus"
+            target="_blank"
+            rel="noreferrer">
+            Contact us
+          </a>
+          &nbsp;&nbsp;
+          <a
+            href="https://www.parjanya.org/privacy-policy"
+            target="_blank"
+            rel="noreferrer">
+            Privacy policy
+          </a>
+        </div>
+        <br />
         <a
           aria-label="Instagram"
           href={
