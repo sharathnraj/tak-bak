@@ -8,12 +8,9 @@ const Footer = () => (
         &copy; {new Date().getFullYear()}, Tak Bak
         <br /><br />
         <div>
-          <a
-            href="https://www.parjanya.org/contactus"
-            target="_blank"
-            rel="noreferrer">
+          <Link to="/contactus">
             Contact us
-          </a>
+          </Link>
           &nbsp;&nbsp;
           <Link to="/privacy-policy">
             Privacy policy
