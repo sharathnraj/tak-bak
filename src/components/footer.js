@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer>
@@ -14,12 +15,9 @@ const Footer = () => (
             Contact us
           </a>
           &nbsp;&nbsp;
-          <a
-            href="https://www.parjanya.org/privacy-policy"
-            target="_blank"
-            rel="noreferrer">
+          <Link to="/privacy-policy">
             Privacy policy
-          </a>
+          </Link>
         </div>
         <br />
         <a

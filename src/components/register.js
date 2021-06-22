@@ -109,7 +109,7 @@ const Register = () => {
         </p>
         <input
           type="submit"
-          value="Sign up for early access"
+          value="Contact us"
           disabled={success}
           className="button" />
         <br /><br />
