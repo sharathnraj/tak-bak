@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 
 import Animals from "../images/animals.webp"
 import Colors from "../images/colors.webp"
+import Leaderboard from "../images/leaderboard.webp"
 
 const IndexPage = () => {
   const [headerHeight, setHeaderHeight] = useState(0)
@@ -185,6 +186,23 @@ const IndexPage = () => {
             <div className="split-60">
                 <h2>Teach Better Hindi</h2>
                 <p>Here at TakBak we take tools and tricks that we know kids already love and use them to teach a language.<br /><br />We get together for a weekly Hindi class. But it isn't yet another boring zoom meeting. Kids love playing games. We learn our words through playing games like Bingo, Pictionary and Scavenger hunt. We do a lot of Kahoot quizzes and kids love to compete and be on the leaderboards.<br /><br />Kids love to sing and dance. So we dance to hindi songs while we try and listen to some words we recently learnt. We draw, read and listen to stories all while learning the language.<br /><br />And we do it with friends.<br />That's what makes it double the fun!!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-white">
+        <div className="wrapper">
+          <div className="split">
+            <div className="split-60">
+              <h2>Leaderboards</h2>
+              <p>We also keep track of the scores using leaderboards and the scores are pushed to a common server.</p>
+            </div>
+            <div className="split-40">
+              <img
+                src={Leaderboard}
+                alt="Leaderboard"
+              />
+
             </div>
           </div>
         </div>
