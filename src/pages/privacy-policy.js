@@ -11,7 +11,7 @@ const PrivacyPolicy = () => (
         <h1>Privacy policy</h1>
         <p className="wide">Last updated February 28, 2020</p>
         <p className="small wide">
-          Thank you for choosing to be part of our community at Shwetha Nagaraj (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at <a href="mailto:shwethan@outlook.com">shwethan@outlook.com</a>.<br /><br />
+          Thank you for choosing to be part of our community at Shwetha Nagaraj (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at <a href="mailto:info@parjanya.org">info@parjanya.org</a>.<br /><br />
           When you visit our mobile application, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Apps and our services.<br /><br />
           This privacy notice applies to all information collected through our mobile application, (\"Apps\"), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy notice as the \"Services\").<br /><br />
           We also keep track of the scores using leaderboards and the scores are pushed to a common server.<br /><br />
@@ -35,7 +35,8 @@ const PrivacyPolicy = () => (
           In Short:   We may collect information regarding your mobile device, when you use our apps.
           If you use our Apps, we may also collect the following information:
           <br /><br />
-          Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's camera, storage, and other features. If you wish to change our access or permissions, you may do so in your device's settings.
+          Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's camera, storage, and other features. If you wish to change our access or permissions, you may do so in your device's settings.<br /><br />
+          We also keep track of the scores using leaderboards and the scores are pushed to a common server.<br /><br />
           <br /><br />
           <br /><br />
           2. WILL YOUR INFORMATION BE SHARED WITH ANYONE?<br />
@@ -60,13 +61,13 @@ const PrivacyPolicy = () => (
           <br /><br />
           3. HOW LONG DO WE KEEP YOUR INFORMATION?<br />
           In Short:  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.
-          We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this policy will require us keeping your personal information for longer than __________.<br />
+          We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements)<br />
           When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
           <br /><br />
           <br /><br />
           4. DO WE COLLECT INFORMATION FROM MINORS?<br />
           In Short:  We do not knowingly collect data from or market to children under 18 years of age.
-          We do not knowingly solicit data from or market to children under 18 years of age. By using the Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at __________.
+          We do not knowingly solicit data from or market to children under 18 years of age. By using the Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at <a href="mailto:info@parjanya.org">info@parjanya.org</a>.
           <br /><br />
           <br /><br />
           5. WHAT ARE YOUR PRIVACY RIGHTS?<br />
@@ -90,7 +91,7 @@ const PrivacyPolicy = () => (
           <br /><br />
           <br /><br />
           9. HOW CAN YOU CONTACT US ABOUT THIS POLICY?<br />
-          If you have questions or comments about this policy, you may email us at __________ or by post to:<br />
+          If you have questions or comments about this policy, you may email us at <a href="mailto:info@parjanya.org">info@parjanya.org</a> or by post to:<br />
           Shwetha Nagaraj <br />
           1694 Lyle Dr<br />
           San Jose 95128<br />
