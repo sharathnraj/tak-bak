@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
   font-family: 'honey_and_raspberriesregular';
   src: url('../fonts/honey_and_raspberries-webfont.woff2') format('woff2'),
@@ -28,7 +30,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: 'janda_manatee_solidregular';
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -37,7 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'janda_manatee_solidregular';
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

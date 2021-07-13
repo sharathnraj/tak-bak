@@ -293,7 +293,7 @@ header .wrapper {
   position: relative;
 }
 
-header img.logo {
+header img {
   height: 64px;
   margin: 0 auto;
 }
@@ -312,7 +312,7 @@ header img.logo {
     text-align: center;
   }
 
-  header img.logo {
+  header img {
     height: 40px;
   }
 }
@@ -381,7 +381,8 @@ footer a svg {
   max-width: 50%;
   margin: 0 auto;
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
+  line-height: 42px;
   padding: 32px 0;
 }
 

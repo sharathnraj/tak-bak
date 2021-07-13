@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 // import Animals from "../images/animals.webp"
 import Home from "../images/home.webp"
 import Salad from "../images/salad.webp"
-import Quiz from "../images/quiz.webp"
+import AR from "../images/quiz.webp"
 // import Colors from "../images/colors.webp"
-import AR from "../images/ar.webp"
+import Quiz from "../images/ar.webp"
 import Leaderboard from "../images/leaderboard.webp"
 import AppStore from "../images/appstore.png"
 
@@ -54,7 +54,7 @@ const IndexPage = () => {
             <span className="words-3">Learn</span>
             <span className="words-4">Repeat</span>
           </h1>
-          <p>Get kids excited to learn and converse in Hindi with TakBak! Introduce basic words in Hindi language in categories like Animals, Colors, Fruits, Vegetables, Body Parts and Numbers. Immersive AR (Augmented Reality) games to master your new learnings with fun avatars!</p>
+          <p>Get kids excited to learn and converse in Hindi with TakBak!<br /><br />Introduce basic words in Hindi language in categories like Animals, Colors, Fruits, Vegetables, Body Parts and Numbers.<br /><br />Immersive AR (Augmented Reality) games to master your new learnings with fun avatars!</p>
         </div>
         <div className="hero-logo" />
         <a className="hero-scroll" href="#main"><span className="hero-scroll-1"></span><span className="hero-scroll-2"></span><span className="hero-scroll-3"></span>Scroll</a>
@@ -64,8 +64,8 @@ const IndexPage = () => {
         <div className="wrapper">
           <div className="split">
             <div className="split-60">
-              <h2>Vision statement</h2>
-              <p>It's all fun and games. When we play, we learn with the least amount of effort. And because it's fun we want to play again and again which leads us to learn better and better.<br /><br />Say 'No' to boring flashcard approach to language learning. In this beginner Hindi app we introduce kids to their first words in Hindi using games that are fun to play over and over again.</p>
+              <h2>Hindi Learning Made Fun</h2>
+              <p>Say 'No' to boring flashcard approach to language learning. In this beginner Hindi app we introduce kids to their first words in Hindi using games that are fun to play over and over again.</p>
             </div>
             <div className="split-40">
               <img
@@ -86,7 +86,6 @@ const IndexPage = () => {
               />
             </div>
             <div className="split-60">
-                <h2>Teach Better Hindi</h2>
                 <p>Here at TakBak we take tools and tricks that we know kids already love and use them to teach a language.<br /><br />Listen to words and phrases in Hindi spoken by a native speaker, you will be familiar with more than 100 basic Hindi words in no time!</p>
             </div>
           </div>
@@ -129,7 +128,7 @@ const IndexPage = () => {
           <div className="split">
             <div className="split-60">
               <h2>Leaderboards</h2>
-              <p>We also keep track of the scores using leaderboards and the scores are pushed to a common server.</p>
+              <p>Kids get to challenge their friends to score points/stars and top the leaderboars. The kid's Game Center username and score shows up here. We do not collect any personal data.</p>
             </div>
             <div className="split-40">
               <img
@@ -144,7 +143,7 @@ const IndexPage = () => {
       <div className="anchor" id="signup" />
       <section className="bg-grey align-center">
         <div className="wrapper">
-          <h2 className="large">Join the Tak Bak wagon.</h2>
+          <h2 className="large">Join the TakBak wagon.</h2>
           <p>Download on the iPad App Store today !!</p>
           <a href="https://apps.apple.com/app/id1526890643">
             <img
