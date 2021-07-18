@@ -329,7 +329,7 @@ footer a svg {
 /* Hero */
 .hero {
   width: 100%;
-  height: calc(100vh - 96px);
+  min-height: calc(100vh - 96px);
   background: #FFFFFF;
   /* background-color: #DCDBD7; */
   /* background-image: url("../images/hero.webp"); */

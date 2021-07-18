@@ -44,7 +44,7 @@ const IndexPage = () => {
           window &&
           window.innerHeight ?
           {
-            height: `calc(${window.innerHeight}px - ${headerHeight}px)`
+            minHeight: `calc(${window.innerHeight}px - ${headerHeight}px)`
           } : {}
         }>
         <div className="hero-content">
@@ -54,6 +54,7 @@ const IndexPage = () => {
             <span className="words-3">Learn</span>
             <span className="words-4">Repeat</span>
           </h1>
+          <p><b>TakBak app now available on the app store !!</b></p>
           <p>Get kids excited to learn and converse in Hindi with TakBak!<br /><br />Introduce basic words in Hindi language in categories like Animals, Colors, Fruits, Vegetables, Body Parts and Numbers.<br /><br />Immersive AR (Augmented Reality) games to master your new learnings with fun avatars!</p>
         </div>
         <div className="hero-logo" />
