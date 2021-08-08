@@ -37,36 +37,46 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div
-        className="hero"
-        style={
-          typeof window !== "undefined" &&
-          window &&
-          window.innerHeight ?
-          {
-            minHeight: `calc(${window.innerHeight}px - ${headerHeight}px)`
-          } : {}
-        }>
+      <div className="hero">
         <div className="hero-content">
-          <h1 className="words">
+          {/* <h1 className="words">
             <span className="words-1">Play</span>
             <span className="words-2">Listen</span>
             <span className="words-3">Learn</span>
             <span className="words-4">Repeat</span>
-          </h1>
-          <p><b>TakBak app now available on the app store !!</b></p>
-          <p>Get kids excited to learn and converse in Hindi with TakBak!<br /><br />Introduce basic words in Hindi language in categories like Animals, Colors, Fruits, Vegetables, Body Parts and Numbers.<br /><br />Immersive AR (Augmented Reality) games to master your new learnings with fun avatars!</p>
+          </h1> */}
+          <h1>Hindi learning made fun</h1>
+          {/* <p><b>TakBak app now available on the app store !!</b></p> */}
+          <p>
+            Get kids excited to learn and converse in Hindi with TakBak!<br /><br />
+            Introduce them to their first 100 words in categories like Animals, Colors, Fruits, Vegetables, Body Parts and Numbers.<br /><br />
+            Play Augmented Reality games with fun avatars to master your new learnings!<br /><br />
+            <a href="https://apps.apple.com/app/id1526890643">
+              <img
+                src={AppStore}
+                alt="AppStore"
+              />
+            </a>
+          </p>
         </div>
         <div className="hero-logo" />
-        <a className="hero-scroll" href="#main"><span className="hero-scroll-1"></span><span className="hero-scroll-2"></span><span className="hero-scroll-3"></span>Scroll</a>
+        {/* <a className="hero-scroll" href="#main"><span className="hero-scroll-1"></span><span className="hero-scroll-2"></span><span className="hero-scroll-3"></span>Scroll</a> */}
       </div>
       <div className="anchor" id="main" />
       <section className="bg-white">
         <div className="wrapper">
           <div className="split">
             <div className="split-60">
-              <h2>Hindi Learning Made Fun</h2>
-              <p>Say 'No' to boring flashcard approach to language learning. In this beginner Hindi app we introduce kids to their first words in Hindi using games that are fun to play over and over again.</p>
+              <h2>Say bye to boring lessons</h2>
+              <p>
+                <ul>
+                  <li>No flashcards</li>
+                  <li>No rote memorization</li>
+                  <li>No native reading skills needed</li>
+                  <li>New words introduced through games</li>
+                  <li>AR games to master new words</li>
+                </ul>
+              </p>
             </div>
             <div className="split-40">
               <img
@@ -87,7 +97,15 @@ const IndexPage = () => {
               />
             </div>
             <div className="split-60">
-                <p>Here at TakBak we take tools and tricks that we know kids already love and use them to teach a language.<br /><br />Listen to words and phrases in Hindi spoken by a native speaker, you will be familiar with more than 100 basic Hindi words in no time!</p>
+              <h2>Safe and fun for little ones</h2>
+              <p>
+                <ul>
+                  <li>No ads. Ever.</li>
+                  <li>Animated characters that kids love</li>
+                  <li>Animal avatars for kids to try out</li>
+                  <li>Cheerful, encouraging audio cues</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
@@ -96,8 +114,15 @@ const IndexPage = () => {
         <div className="wrapper">
           <div className="split">
             <div className="split-60">
-              <h2>Interactive</h2>
-              <p>The first game in each category is a learning game where kids learn new words. Subsequent games in the category will repeat these words in the form of fun and interactive gameplay like a jigsaw puzzle, memory card game, coloring game or a treasure hunt. </p>
+              <h2>Interactive learning</h2>
+              <p>
+                <ul>
+                  <li>Improves listening and speaking skills</li>
+                  <li>Helps learn new words by listening</li>
+                  <li>Native speaker audio helps with pronunciation</li>
+                  <li>Play based learning gets kids to come back and learn more</li>
+                </ul>
+              </p>
             </div>
             <div className="split-40">
               <img
@@ -118,8 +143,14 @@ const IndexPage = () => {
               />
             </div>
             <div className="split-60">
-                <h2>Augmented reality</h2>
-                <p>Don't miss our AR games that get the kids up and moving instead of sitting and tapping away at the screen. The AR games use fun avatars that keep the kids entertained while busy learning.</p>
+              <h2>Augmented reality</h2>
+              <p>
+                <ul>
+                  <li>Bring active learning into your living room</li>
+                  <li>Get kids up and moving</li>
+                  <li>Choose a different avatar every time</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
@@ -128,8 +159,15 @@ const IndexPage = () => {
         <div className="wrapper">
           <div className="split">
             <div className="split-60">
-              <h2>Leaderboards</h2>
-              <p>Kids get to challenge their friends to score points/stars and top the leaderboars. The kid's Game Center username and score shows up here. We do not collect any personal data.</p>
+              <h2>Rewards & Leaderboards</h2>
+              <p>
+                <ul>
+                  <li>Earn rewards every time you complete games</li>
+                  <li>Climb up the leaderboards as you play more</li>
+                  <li>Challenge your friends to beat your score</li>
+                  <li>Play with your friends for extra fun</li>
+                </ul>
+              </p>
             </div>
             <div className="split-40">
               <img
