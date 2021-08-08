@@ -618,14 +618,3 @@ footer a svg {
     opacity: 0;
   }
 }
-
-
-@media only screen and (max-width: 768px) {
-  .hero {
-    height: calc(100vh - 72px);
-  }
-
-  /* .hero-scroll {
-    display: none;
-  } */
-}
