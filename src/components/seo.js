@@ -89,6 +89,11 @@ function SEO({ description, lang, meta, title }) {
           })(window,document,'script','dataLayer','GTM-WKCC5SJ');
         `}
       </script>
+      <script id="mcjs">
+        {`
+          !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5f478c77598474eeb08d02b6f/88d635e8d4c3388638d82a3c6.js");
+        `}
+      </script>
     </Helmet>
   )
 }

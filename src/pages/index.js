@@ -180,7 +180,7 @@ const IndexPage = () => {
         </div>
       </section>
       <div className="anchor" id="signup" />
-      <section className="bg-grey align-center">
+      {/* <section className="bg-grey align-center">
         <div className="wrapper">
           <h2 className="large">Join the TakBak wagon.</h2>
           <p>Download on the iPad App Store today !!</p>
@@ -194,8 +194,8 @@ const IndexPage = () => {
           <br />
           <Register />
         </div>
-      </section>
-      <section className="bg-white align-center">
+      </section> */}
+      <section className="bg-grey align-center">
         <div className="wrapper">
           <div className="cards">
             <div className="card">
